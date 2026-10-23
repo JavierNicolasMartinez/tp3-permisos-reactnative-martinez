@@ -280,7 +280,7 @@ npx expo run:android    # development build en Android (requiere Android Studio)
 
 <h2 style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 14pt;">Capturas y video</h2>
 
-<!-- Reemplazar cada línea por la imagen correspondiente, por ejemplo: <img src="capturas/escaner-cargando.png" width="250"> -->
+<p style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt;">Las capturas se tomaron en la <strong style="font-family: 'Times New Roman', Times, serif; color: #000000;">versión web de la app</strong> (<code style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt;">npx expo start --web</code>, Chrome en modo móvil de 390 × 844), por eso el panel dice "Plataforma: web". Todo lo que se ve lo renderiza el mismo código de la app; el navegador cumple el papel del sistema operativo. En web los módulos de Expo siempre devuelven <code style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt;">canAskAgain: true</code>, así que el estado "bloqueado", la notificación del sistema y el diálogo nativo con el texto de propósito solo se pueden capturar en el celular.</p>
 
 
 <table style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border-collapse: collapse;">
@@ -293,47 +293,47 @@ npx expo run:android    # development build en Android (requiere Android Studio)
 <tbody>
 <tr>
 <td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">Escáner · cargando</td>
-<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">(insertar captura)</td>
+<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;"><img src="capturas/escaner-cargando.png" width="220" alt="escaner-cargando"></td>
 </tr>
 <tr>
 <td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">Escáner · concedido (cámara)</td>
-<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">(insertar captura)</td>
+<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;"><img src="capturas/escaner-concedido.png" width="220" alt="escaner-concedido"> <img src="capturas/qr-leido.png" width="220" alt="qr-leido"><br><span style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt;">Cámara abierta y, al leer el QR "Aula 12", el campo Aula queda completo.</span></td>
 </tr>
 <tr>
 <td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">Escáner · preguntable</td>
-<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">(insertar captura)</td>
+<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;"><img src="capturas/escaner-preguntable.png" width="220" alt="escaner-preguntable"></td>
 </tr>
 <tr>
 <td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">Escáner · bloqueado</td>
-<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">(insertar captura)</td>
+<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">Pendiente: en web no existe el estado bloqueado (canAskAgain siempre es true). Se saca en el iPhone rechazando una vez.</td>
 </tr>
 <tr>
 <td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">Ubicación concedida</td>
-<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">(insertar captura)</td>
+<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;"><img src="capturas/pantalla-previa-ubicacion.png" width="220" alt="pantalla-previa-ubicacion"> <img src="capturas/ubicacion-concedida.png" width="220" alt="ubicacion-concedida"></td>
 </tr>
 <tr>
 <td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">Ubicación denegada (sector a mano)</td>
-<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">(insertar captura)</td>
+<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;"><img src="capturas/ubicacion-denegada.png" width="220" alt="ubicacion-denegada"><br><span style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt;">La persona rechazó la ubicación y eligió el sector "Patio" a mano.</span></td>
 </tr>
 <tr>
 <td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">Foto elegida desde el selector</td>
-<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">(insertar captura)</td>
+<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;"><img src="capturas/foto-selector.png" width="220" alt="foto-selector"><br><span style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt;">La imagen se eligió con el selector de archivos, sin ningún pedido de permiso.</span></td>
 </tr>
 <tr>
 <td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">Notificación recibida</td>
-<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">(insertar captura)</td>
+<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;"><img src="capturas/detalle-resuelto.png" width="220" alt="detalle-resuelto"> <img src="capturas/avisos.png" width="220" alt="avisos"><br><span style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt;">Sin permiso de notificaciones, el aviso llegó a la pestaña "Avisos".</span></td>
 </tr>
 <tr>
 <td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">Panel de permisos antes de ir a Ajustes</td>
-<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">(insertar captura)</td>
+<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;"><img src="capturas/panel-permisos-antes.png" width="220" alt="panel-permisos-antes"><br><span style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt;">Cámara rechazada: status denied.</span></td>
 </tr>
 <tr>
 <td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">Panel de permisos después de volver de Ajustes</td>
-<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">(insertar captura)</td>
+<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;"><img src="capturas/panel-permisos-despues.png" width="220" alt="panel-permisos-despues"><br><span style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt;">Cámara habilitada en la configuración del navegador: al volver a la pestaña, el panel se actualizó solo (AppState).</span></td>
 </tr>
 <tr>
 <td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">Diálogo del sistema en la development build (texto de propósito)</td>
-<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;">(insertar captura)</td>
+<td style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt; border: 1px solid #000000; padding: 4px;"><img src="capturas/pantalla-previa-camara.png" width="220" alt="pantalla-previa-camara"><br><span style="font-family: 'Times New Roman', Times, serif; color: #000000; font-size: 12pt;">Pantalla previa con el texto de propósito. Pendiente: el diálogo nativo de la development build.</span></td>
 </tr>
 </tbody>
 </table>
